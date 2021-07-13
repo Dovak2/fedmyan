@@ -1,0 +1,100 @@
+﻿capital = 807
+set_research_slots = 3
+set_stability = 87
+set_war_support = 77
+#Starting tech
+set_technology = {
+}
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 500
+
+	#complete_national_focus = YOUR_FOCUS_ID
+	#complete_national_focus = YOUR_FOCUS_ID
+
+	set_technology = {
+	}
+	#set_convoys = 100
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 25
+	fascism = 25
+	communism = 25
+	neutrality = 25
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1936.2.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 20
+		fascism = 15
+		communism = 15
+		neutrality = 50
+	}
+}
+
+Create country leader - President Zam Muan Sang
+create_country_leader = {
+	name = "President Zam Muan Sang"
+	picture = "glorious leader Zam Muan Sang.dds
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = { }
+}
+create_country_leader = {
+	name = "Supreme Premier Zam Muan Sang"
+	desc = "Born in 2004, Muan Sang has acheived with no other thought was impossible: time travel. Being thought in western schooling and keeping his roots to the Zo culture, he now plans to bring Zogam into a new age of prosperity. "
+	picture = "glorious leader Zam Muan Sang.dds"
+	ideology = anti_revisionism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Zam Muan Sang"
+	desc = "Born in 2004, Muan Sang has acheived with no other thought was impossible: time travel. Being thought in western schooling and keeping his roots to the Zo culture, he now plans to bring Zogam into a new age of prosperity. "
+	picture = "glorious leader Zam Muan Sang.dds"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Chancellor Zam Muan Sang"
+	desc = "Born in 2004, Muan Sang has acheived with no other thought was impossible: time travel. Being thought in western schooling and keeping his roots to the Zo culture, he now plans to bring Zogam into a new age of prosperity. "
+	picture = "glorious leader Zam Muan Sang.dds"
+	ideology = rexism
+	traits = {
+		#
+	}
+}
+
+Create military leader - General Zam Muan Sang
+create_corps_commander = {
+	name = "General Zam Muan Sang"
+	picture = "leader_unknown.dds"
+	traits = { brilliant_strategist inflexible_strategist camouflage_expert expert_improviser guerilla_fighter ambusher infantry_expert combined_arms_expert jungle_rat hill_fighter trait_mountaineer commando adaptable trickster skilled_staffer organizer expert_delegator inspirational_leader aggressive_assaulter unyielding_defender offensive_doctrine logistics_wizard defensive_doctrine harsh_leader trait_reckless politically_connected }
+	skill = 10
+	attack_skill = 10
+	defense_skill = 10
+	planning_skill = 10
+	logistics_skill = 10
+	id = 1933613553326185
+}

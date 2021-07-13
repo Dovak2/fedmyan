@@ -1,0 +1,76 @@
+ideas = {
+	political_advisor = {
+		pau_ciin_hau = {
+			allowed = {
+				original_tag = ZOM
+			}
+			traits = {great_architect}
+			picture = /media/get//hoi4/ideas/people/idea_takuo_godo
+		}
+		zam_muan_sang = {
+			allowed = {
+				original_tag = ZOM
+			}
+			traits = {political_dancer}
+			picture = /media/get//hoi4/ideas/people/idea_rudolf_hess
+		}
+		jo_mama = {
+			allowed = {
+				original_tag = ZOM
+			}
+			traits = {socialite_connections}
+			picture = /media/get//hoi4/ideas/people/idea_hol_wilhelmina
+		}
+	}
+
+	#Military
+	army_chief = {
+		zam_muan_sang = {
+			allowed = {
+				original_tag = ZOM
+			}
+			traits = {war_profiteer}
+			picture = /media/get//hoi4/ideas/people/idea_heinrich_himmler
+		}
+	}
+	navy_chief = {
+		zam_muan_sang = {
+			allowed = {
+				original_tag = ZOM
+			}
+			traits = {colonial_communist}
+			picture = /media/get//hoi4/ideas/people/idea_goering
+		}
+	}
+	air_chief = {
+	}
+	high_command = {
+	}
+	#Manufacturers
+	tank_manufacturer = {
+		future_economics = {
+			allowed = {
+				original_tag = ZOM
+			}
+			traits = {camarilla_leader}
+			research_bonus = { armor = 0.10 }
+			picture = /media/get//hoi4/ideas/not_people/idea_chi_hyper_inflation4
+		}
+	}
+	naval_manufacturer = {
+		new_medias = {
+			allowed = {
+				original_tag = ZOM
+			}
+			traits = {kaiserin_of_the_people}
+			research_bonus = { naval_equipment = 0.10 }
+			picture = /media/get//hoi4/ideas/not_people/idea_prc_low_popular_support3
+		}
+	}
+	aircraft_manufacturer = {
+	}
+	materiel_manufacturer = {
+	}
+	theorist = {
+	}
+}

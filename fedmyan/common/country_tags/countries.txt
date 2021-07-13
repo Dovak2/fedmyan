@@ -1,0 +1,3 @@
+#New Tags
+BRM = "countries/Burma.txt"
+ZOM = "countries/Zogam.txt"

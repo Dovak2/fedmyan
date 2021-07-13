@@ -1,0 +1,22 @@
+state={
+	id=812
+	name="STATE_812"
+	history={
+		add_core_of = BRM
+		add_core_of = "ZOM"
+		owner = "ZOM"
+		victory_points = {
+			4147 2 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	provinces={
+		4147 
+	}
+	manpower=21493
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

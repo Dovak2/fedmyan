@@ -1,0 +1,10 @@
+#reload countrycolors
+
+ZOM = {
+	color = rgb { 0 128 0 }
+	color_ui = rgb { 0 128 0 }
+}
+BRM = {
+	color = rgb { 225 223 0 }
+	color_ui = { 225 223 0 }
+}
